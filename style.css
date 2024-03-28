@@ -1,0 +1,198 @@
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+#controls {
+    border: solid rgb(240, 50, 199);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8e30c315-b987-4266-9f49-3c55f318ee4e/dbzkew5-bbb0fd40-adf7-4e50-8430-eb4717c3fb54.png/v1/fit/w_512,h_512/pixel_stars_by_nyuka_dbzkew5-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvOGUzMGMzMTUtYjk4Ny00MjY2LTlmNDktM2M1NWYzMThlZTRlXC9kYnprZXc1LWJiYjBmZDQwLWFkZjctNGU1MC04NDMwLWViNDcxN2MzZmI1NC5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._hzXVdhezqUU89WuBtAAGArD_pOfzwbOfCpm7_zopnU);
+    background-size: auto;
+    background-repeat: repeat;
+    color: white;
+    height: 771px;
+    width: 800px;
+    float: left;
+    overflow-y: scroll;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*Building Purchase Buttons */
+.units {
+height: 80px;
+width: 200px;
+border-radius: 12px;
+background: rgb(245,252,252);
+font-size: 18px;
+box-shadow: 0 9px #999;
+transition-duration: 0.3s;
+text-align: center;
+font-family: 'Pixelify Sans', sans-serif;
+float: left;
+margin-left: 10px
+}
+
+/*Unit description button*/
+.desc {
+font-family: 'Pixelify Sans', sans-serif;
+margin-left: 40px;
+margin-bottom: 10px;
+}
+
+/*Main clicker Button*/
+#clicker {
+font-family: 'Pixelify Sans', sans-serif;
+height: 80px;
+width: 500px;
+background: rgb(245,252,252);
+background: linear-gradient(0deg, rgb(28, 31, 31) 0%, rgba(87, 92, 92, 0.534) 47%, rgba(5,5,5,1) 100%);
+border-radius: 12px;
+font-size: 18px;
+color: yellow;
+border: 2px solid rgb(182, 182, 54);
+box-shadow: 0 9px #999;
+transition-duration: 0.3s;
+text-align: center;
+}
+
+#clicker:hover, .units:hover {
+color: rgb(54, 255, 47);
+border: 2px solid rgb(54, 255, 47);
+}
+
+#clicker:active, .units:active {
+    background:rgba(14, 13, 13, 0.438);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*Individual Unit Decorations */
+#unitimages {    
+height: 100px;
+float: right;
+margin-right: 10px;
+border: solid 2px rgb(240, 50, 199);
+}
+
+#goblinsection {
+padding-top: 10px;
+border: solid 4px brown;
+}
+
+#goblinw {
+color: green;
+border: solid 10px brown;
+}
+
+#description6 {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+#barbariansection {
+padding-top: 10px;
+border: solid 4px rgb(199, 146, 67);   
+}
+
+#barbarian {
+color: rgb(63, 27, 27);
+border: solid 10px rgb(199, 146, 67);
+}
+
+#description5 {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+#buffogresection {
+padding-top: 10px;
+border: solid 4px rgb(59, 4, 59);   
+}
+
+#buffogre {
+color:rgb(182, 182, 54);
+border: solid 10px rgb(59, 4, 59);
+}
+
+#description4 {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+#centaursection {
+padding-top: 10px;
+border: solid 4px rgb(201, 212, 36);
+}
+
+#centaur {
+color: rgb(70, 206, 206);
+border: solid 10px rgb(201, 212, 36);
+}
+
+#description3 {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+#dwarfsection {
+padding-top: 10px;
+border: solid 4px rgb(230, 158, 26);
+}
+
+#dwarfmf {
+color: rgb(250, 10, 10);
+border: solid 10px rgb(230, 158, 26);
+}
+
+#description2 {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+#archmagesection {
+ padding-top: 10px;
+ border: solid 4px rgb(98, 98, 209);
+}
+
+#archmage {
+ color: purple;
+ border: solid 10px rgb(98, 98, 209); 
+}
+
+#description1 {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+#text {
+text-align: center;
+font-size: 32px;
+height: 300px;
+width: 500px;
+border: solid 2px black;
+   
+}
+
+#gamestats {
+    border: solid;
+    height: auto;
+    width: 500px;
+    font-size: 22px;
+}
+
+#mainclicker {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.mined {
+font-size: 32px;
+text-align: center;
+border: solid;
+height: 150px;
+width: 500px;
+padding-top: 75px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pixel Mine Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Pixel Mine Clicker</h1>
+    <div id="controls">
+        <h2>Units for Hire</h2>
+        <div id="archmagesection">
+    <button class="units" id="archmage">Hire Archmage</button>
+    <h3><u>Cost: <strong>6500</strong></u></h3>
+    <h3><u>Pixels per second: <strong>69</strong></u></h3>
+    <button class="desc" onclick="dropdownDescription1()">Unit Description</button>
+    <p id="description1">Master of the arcane arts and manipulator of time and space. The very fabric of reality is at his fingertips. The Archmage is capable of seperating pixels from the ground with earth magic, then smelting mined ores on the spot with powerful fire magic, cooling it with water and wind magic, and then creating portals to transport it from one  place to another without breaking a sweat. You will need to offer a lot of compensation to hire his talents.</p>
+     </div>
+     <div id="dwarfsection">
+    <button class="units" id="dwarfmf">Hire Dwarf Mine Foreman</button>
+    <h3><u>Cost: <strong>2100</strong></u></h3>
+    <h3><u>Pixels per second: <strong>35</strong></u></h3>
+      <button class="desc" onclick="dropdownDescription2()">Unit Description</button>
+    <p id="description2">The dwarves have always been well known for their talents in excivation. Despite his small stature, this one has a talent for supervising and organizing mining operations. However, due to his talents, he is quite a pricy unit.</p>
+  </div>
+  <div id="centaursection">
+    <button class="units" id="centaur">Hire Centaur Hauler</button>
+    <h3><u>Cost: <strong>999</strong></u></h3>
+    <h3><u>Pixels per second: <strong>22</strong></u></h3>
+    <button class="desc" onclick="dropdownDescription3()">Unit Description</button>
+    <p id="description3">Having the intellect of a human and the strength and speed of a horse, Centaurs make efficient Pixel haulers. Focusing on moving already mined Pixels allows units with higher strength to focus on mining rather than moving the Pixels themselves.</p>
+  </div>
+  <div id="buffogresection">
+    <button class="units" id="buffogre">Hire Buff Ogre</button>
+    <h3><u>Cost: <strong>560</strong></u></h3>
+    <h3><u>Pixels per second: <strong>9</strong></u></h3>
+    <button class="desc" onclick="dropdownDescription4()">Unit Description</button>
+    <p id="description4"> While not being much smarter than the Goblin Worker, the Buff Ogre is large and formidable, making mining and hauling Pixels significantly more efficient. Just pay him decently and don't make him angry.</p>
+  </div>
+  <div id="barbariansection">
+    <button class="units" id="barbarian">Hire  Barbarian Miner</button>
+    <h3><u>Cost: <strong>180</strong></u></h3>
+    <h3><u>Pixels per second: <strong>3</strong></u></h3>
+    <button class="desc" onclick="dropdownDescription5()">Unit Description</button>
+    <p id="description5">Barbarians are known for their strength, toughness and rowdyness amongst humankind. They are relatively cheap workers because they do not care much for money, but would rather have mutton and mead. However, even though they are smarter and stronger than the Goblin Worker, their constant need for alchol hinders their efficiency greatly.</p>
+  </div>
+  <div id="goblinsection">
+    <button class="units" id="goblinw">Hire Goblin Worker</button>
+    <img id="unitimages" src="https://art.pixilart.com/sr2c467f32e92aws3.png">
+    <h3><u>Cost: <strong>50</strong></u></h3>
+    <h3><u>Pixels per second: <strong>0.5</strong></u></h3>
+    <button class="desc" onclick="dropdownDescription6()">Unit Description</button>
+    <p id="description6">Not a strong, smart, or efficient worker... but cheap to hire and better than nothing.</p>
+    </div>
+  </div>
+   
+    <div id="mainclicker">
+      <button  id="clicker">+1 Pixel Mined</button>
+      <div id="text">
+        Click the button to begin mining Pixels!
+    </div>
+    <span class="mined">Pixels Mined: <strong><span id="pixelText">0</span></strong></span>
+    <div id="gamestats">
+<span class="stat">Number of Archmage owned: <strong><span id="archmageNumber">0</span></strong></span></br>
+<span class="stat">Number of Dwarf Mine Foreman owned: <strong><span id="dwarfmfNumber">0</span></strong></span></br>
+<span class="stat">Number of Centaur Hauler owned: <strong><span id="centaurNumber">0</span></strong></span></br>
+<span class="stat">Number of Buff Ogre owned: <strong><span id="buffogreNumber">0</span></strong></span></br>
+<span class="stat">Number of Barbarian Miner owned: <strong><span id="barbarianNumber">0</span></strong></span></br>
+<span class="stat">Number of Goblin Worker owned: <strong><span id="goblinwNumber">0</span></strong></span></br>
+</div>    
+ </div>
+    
+    
+	<script src="index.js"></script>
+  </body>
+</html>
